@@ -1,0 +1,93 @@
+Welcome to the Feature Selection Algorithm
+Do you want to test the 'LARGE' or 'SMALL' dataset? Input large/small in CAPS please: small 
+Which dataset do you want to test? Please input from 1-100 for the desired dataset: 56
+Do you want to run Forward Selection or Backward Elimination? Enter 1 or 2 for the respective algorithm: 1
+Running Data/Ver_2_CS170_Fall_2021_SMALL_data__56.txt at 21:50:19
+This dataset has 10 features(excluding class attribute) with 500 instances
+Starting from the empty set, our default rate is 85.2
+
+On the 1th level of the search tree
+--Considering adding feature 1 with accuracy of 72.0
+--Considering adding feature 2 with accuracy of 75.6
+--Considering adding feature 3 with accuracy of 85.0
+--Considering adding feature 4 with accuracy of 75.2
+--Considering adding feature 5 with accuracy of 77.6
+--Considering adding feature 6 with accuracy of 73.8
+--Considering adding feature 7 with accuracy of 76.6
+--Considering adding feature 8 with accuracy of 74.0
+--Considering adding feature 9 with accuracy of 74.8
+--Considering adding feature 10 with accuracy of 77.6
+At level 1, I added feature 3 to the current set with accuracy of 85.0
+
+On the 2th level of the search tree
+--Considering adding feature 1 with accuracy of 84.2
+--Considering adding feature 2 with accuracy of 84.8
+--Considering adding feature 4 with accuracy of 82.8
+--Considering adding feature 5 with accuracy of 86.2
+--Considering adding feature 6 with accuracy of 81.2
+--Considering adding feature 7 with accuracy of 82.6
+--Considering adding feature 8 with accuracy of 84.8
+--Considering adding feature 9 with accuracy of 84.6
+--Considering adding feature 10 with accuracy of 93.0
+At level 2, I added feature 10 to the current set with accuracy of 93.0
+
+On the 3th level of the search tree
+--Considering adding feature 1 with accuracy of 89.0
+--Considering adding feature 2 with accuracy of 91.4
+--Considering adding feature 4 with accuracy of 91.0
+--Considering adding feature 5 with accuracy of 93.8
+--Considering adding feature 6 with accuracy of 90.2
+--Considering adding feature 7 with accuracy of 90.6
+--Considering adding feature 8 with accuracy of 91.0
+--Considering adding feature 9 with accuracy of 90.8
+At level 3, I added feature 5 to the current set with accuracy of 93.8
+
+On the 4th level of the search tree
+--Considering adding feature 1 with accuracy of 89.2
+--Considering adding feature 2 with accuracy of 87.2
+--Considering adding feature 4 with accuracy of 90.2
+--Considering adding feature 6 with accuracy of 90.0
+--Considering adding feature 7 with accuracy of 91.0
+--Considering adding feature 8 with accuracy of 89.2
+--Considering adding feature 9 with accuracy of 88.8
+At level 4, I added feature 7 to the current set with accuracy of 91.0
+
+On the 5th level of the search tree
+--Considering adding feature 1 with accuracy of 88.4
+--Considering adding feature 2 with accuracy of 87.0
+--Considering adding feature 4 with accuracy of 88.6
+--Considering adding feature 6 with accuracy of 88.0
+--Considering adding feature 8 with accuracy of 86.6
+--Considering adding feature 9 with accuracy of 89.6
+At level 5, I added feature 9 to the current set with accuracy of 89.6
+
+On the 6th level of the search tree
+--Considering adding feature 1 with accuracy of 86.8
+--Considering adding feature 2 with accuracy of 85.0
+--Considering adding feature 4 with accuracy of 84.6
+--Considering adding feature 6 with accuracy of 86.4
+--Considering adding feature 8 with accuracy of 83.0
+At level 6, I added feature 1 to the current set with accuracy of 86.8
+
+On the 7th level of the search tree
+--Considering adding feature 2 with accuracy of 81.4
+--Considering adding feature 4 with accuracy of 82.4
+--Considering adding feature 6 with accuracy of 81.4
+--Considering adding feature 8 with accuracy of 81.4
+At level 7, I added feature 4 to the current set with accuracy of 82.4
+On the 8th level of the search tree
+--Considering adding feature 2 with accuracy of 79.0
+--Considering adding feature 6 with accuracy of 81.0
+--Considering adding feature 8 with accuracy of 77.4
+At level 8, I added feature 6 to the current set with accuracy of 81.0
+
+On the 9th level of the search tree
+--Considering adding feature 2 with accuracy of 78.0
+--Considering adding feature 8 with accuracy of 77.0
+At level 9, I added feature 2 to the current set with accuracy of 78.0
+
+On the 10th level of the search tree
+--Considering adding feature 8 with accuracy of 77.8
+At level 10, I added feature 8 to the current set with accuracy of 77.8
+Highest accuracy recorded was at: 93.8 with a set of: [3, 10, 5]
+Program took 68.796 seconds to run and finished at 21:51:28

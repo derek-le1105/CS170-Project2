@@ -1,0 +1,94 @@
+Welcome to the Feature Selection Algorithm
+Do you want to test the 'LARGE' or 'SMALL' dataset? Input large/small in CAPS please: small
+Which dataset do you want to test? Please input from 1-100 for the desired dataset: 56
+Do you want to run Forward Selection or Backward Elimination? Enter 1 or 2 for the respective algorithm: 2
+Running Data/Ver_2_CS170_Fall_2021_SMALL_data__56.txt at 21:52:10
+This dataset has 10 features(excluding class attribute) with 500 instances
+Starting from the empty set, our default rate is 85.2
+
+On the 1th level of the search tree
+--Removing feature 1 from current set yields accuracy of 77.8 
+--Removing feature 2 from current set yields accuracy of 77.0 
+--Removing feature 3 from current set yields accuracy of 73.6 
+--Removing feature 4 from current set yields accuracy of 78.2 
+--Removing feature 5 from current set yields accuracy of 80.6 
+--Removing feature 6 from current set yields accuracy of 76.0 
+--Removing feature 7 from current set yields accuracy of 77.4 
+--Removing feature 8 from current set yields accuracy of 78.0 
+--Removing feature 9 from current set yields accuracy of 77.4 
+--Removing feature 10 from current set yields accuracy of 75.4 
+At level 1, I removed feature 5 from the current set to achieve an accuracy of 80.6
+
+On the 2th level of the search tree
+--Removing feature 1 from current set yields accuracy of 81.4 
+--Removing feature 2 from current set yields accuracy of 80.6 
+--Removing feature 3 from current set yields accuracy of 77.2 
+--Removing feature 4 from current set yields accuracy of 83.0 
+--Removing feature 6 from current set yields accuracy of 80.2 
+--Removing feature 7 from current set yields accuracy of 79.2 
+--Removing feature 8 from current set yields accuracy of 81.2 
+--Removing feature 9 from current set yields accuracy of 77.6 
+--Removing feature 10 from current set yields accuracy of 76.8 
+At level 2, I removed feature 4 from the current set to achieve an accuracy of 83.0
+
+On the 3th level of the search tree
+--Removing feature 1 from current set yields accuracy of 81.0 
+--Removing feature 2 from current set yields accuracy of 84.2 
+--Removing feature 3 from current set yields accuracy of 78.0 
+--Removing feature 6 from current set yields accuracy of 81.2 
+--Removing feature 7 from current set yields accuracy of 82.6 
+--Removing feature 8 from current set yields accuracy of 82.6 
+--Removing feature 9 from current set yields accuracy of 82.4 
+--Removing feature 10 from current set yields accuracy of 78.6 
+At level 3, I removed feature 2 from the current set to achieve an accuracy of 84.2
+
+On the 4th level of the search tree
+--Removing feature 1 from current set yields accuracy of 82.4 
+--Removing feature 3 from current set yields accuracy of 77.8 
+--Removing feature 6 from current set yields accuracy of 84.8 
+--Removing feature 7 from current set yields accuracy of 84.6 
+--Removing feature 8 from current set yields accuracy of 85.0 
+--Removing feature 9 from current set yields accuracy of 84.4 
+--Removing feature 10 from current set yields accuracy of 77.2 
+At level 4, I removed feature 8 from the current set to achieve an accuracy of 85.0
+
+On the 5th level of the search tree
+--Removing feature 1 from current set yields accuracy of 85.6 
+--Removing feature 3 from current set yields accuracy of 77.4 
+--Removing feature 6 from current set yields accuracy of 86.2 
+--Removing feature 7 from current set yields accuracy of 87.0 
+--Removing feature 9 from current set yields accuracy of 85.4 
+--Removing feature 10 from current set yields accuracy of 78.6 
+At level 5, I removed feature 7 from the current set to achieve an accuracy of 87.0
+
+On the 6th level of the search tree
+--Removing feature 1 from current set yields accuracy of 89.4 
+--Removing feature 3 from current set yields accuracy of 78.4 
+--Removing feature 6 from current set yields accuracy of 88.2 
+--Removing feature 9 from current set yields accuracy of 86.4 
+--Removing feature 10 from current set yields accuracy of 81.8 
+At level 6, I removed feature 1 from the current set to achieve an accuracy of 89.4
+
+On the 7th level of the search tree
+--Removing feature 3 from current set yields accuracy of 81.4 
+--Removing feature 6 from current set yields accuracy of 90.8 
+--Removing feature 9 from current set yields accuracy of 90.2 
+--Removing feature 10 from current set yields accuracy of 79.8 
+At level 7, I removed feature 6 from the current set to achieve an accuracy of 90.8
+
+On the 8th level of the search tree
+--Removing feature 3 from current set yields accuracy of 79.8
+--Removing feature 9 from current set yields accuracy of 93.0
+--Removing feature 10 from current set yields accuracy of 84.6
+At level 8, I removed feature 9 from the current set to achieve an accuracy of 93.0
+
+On the 9th level of the search tree
+--Removing feature 3 from current set yields accuracy of 77.6
+--Removing feature 10 from current set yields accuracy of 85.0
+At level 9, I removed feature 10 from the current set to achieve an accuracy of 85.0
+
+On the 10th level of the search tree
+--Removing feature 3 from current set yields accuracy of 85.2
+At level 10, I removed feature 3 from the current set to achieve an accuracy of 85.2
+Highest accuracy recorded was at: 85.2 with a set of: 3
+Program took 64.017 seconds to run and finished at 21:53:14
